@@ -1,0 +1,9 @@
+@font-face {font-family: mittelschrift; src: url(../fonts/DIN1451Mittelschrift.woff2);}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: rgb(32, 32, 32); font-family: mittelschrift;}

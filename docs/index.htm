@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black Mesa</title>
+    <link rel="icon" type="image/x-icon" href="../images/bm_icon.png">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://kit.fontawesome.com/8f9ed07ddd.js" crossorigin="anonymous"></script>
+
+    <style>
+        .cover {position: relative;}
+
+        .motto {
+            position: absolute;
+            bottom: 15%;
+            width: 100%;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .engagement {
+            text-align: center;
+            padding: 0 300px;
+            font-size: 18px;
+        }
+
+        .head {/* color: rgb(255, 117, 2); */color: rgb(0, 185, 99);}
+
+        .desc {color: rgb(200,200,200);}
+
+        .maincontent {padding: 0 40px;}
+
+        .content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            background-image: linear-gradient(to right, rgb(0, 185, 99), rgb(0, 185, 99), rgb(32, 32, 32));
+            font-size: 18px;
+            border-radius: 40px;
+        }
+
+        #bgtoleft {
+            flex-direction: row-reverse;
+            background-image: linear-gradient(to left, rgb(0, 185, 99), rgb(0, 185, 99), rgb(32, 32, 32));
+        }
+
+        .ctext {
+            width: 45%;
+            padding: 30px 50px;
+            color: rgb(48, 48, 48);
+            border-radius: 40px;
+        }
+
+        .cimage {width: 55%; padding: 30px 50px;}
+
+        .cimage img {border-radius: 20px;}
+
+        .partners {
+            text-align: center;
+            padding: 0 200px;
+            font-size: 18px;
+        }
+
+        .orgs {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .orgs img {
+            width: 16%;
+            height: auto;
+            padding: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 0 300px;
+            font-size: 18px;
+        }
+
+        .space {padding: 70px 0;}
+
+        .jobcontact {display: flex; justify-content: center;}
+
+        .jobcontact a {
+            text-decoration: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            font-size: 25px;
+            color: rgb(200,200,200);
+            border: 1px solid rgb(200,200,200);
+            border-radius: 10px;
+            transition: background-color 0.2s, color 0.2s, border 0.2s;
+        }
+
+        .jobcontact a:hover {
+            background-color: rgb(0, 185, 99);
+            color: rgb(32, 32, 32);
+            border: 1px solid rgb(32, 32, 32);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <a href="index.htm"><img src="../images/bm_logo.png" alt="logo" /> Black Mesa</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="news.htm">News</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+        </ul>
+        <div class="login">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav >
+    <nav class="menu2">
+        <a href="index.htm">Home</a>
+        <a href="news.htm">News</a>
+        <a href="#">History</a>
+        <a href="#">Careers</a>
+        <a href="contact.htm">Contact</a>
+    </nav>
+
+    <div class="cover">
+        <img src="../images/index/cover.jpg" alt="cover" style="width: 100%; height: auto;" />
+        <div class="motto">"Working to make a better tomorrow for all mankind"</div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="engagement">
+        <h1 class="head">Looking for a stable and rewarding career where you can help advance humanity?</h1><br><br>
+        <p class="desc">In an era where scientific advancement is paramount, Black Mesa stands out as a beacon of innovation and excellence. Our research facility is renowned for pushing the boundaries of what is possible, attracting top talent from around the globe. But how come?</p><br><br>
+        <p class="desc">There are several reasons why...</p>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="maincontent">
+        <div class="content">
+            <div class="ctext">
+                <h3>Scientific Safe Haven</h3><br>
+                <p>Try naming a single branch of science untouched in Black Mesa. Here, every conceivable scientific field is explored with unparalleled depth and dedication. Whether your an aerospace engineer aiming to send man to the deepest corners of space or a geneticist finding the cure for cancer, our expansive facilities and expert teams make Black Mesa the ultimate destination for innovative research and groundbreaking discoveries.</p>
+            </div>
+            <div class="cimage"><img src="../images/index/content1.png" alt="content1" style="width: 100%; height: auto;" /></div>
+        </div>
+        <br><br><br>
+        <div class="content" id="bgtoleft">
+            <div class="ctext">
+                <h3>Thriving City</h3><br>
+                <p>Black Mesa is not only a place for work, it can also be your second home! Our research facility is 100% self-sufficient in that we boast of being a miniature city complete with free housing, shopping complex, a variety of recreational and entertainment centers and top of the line medical facilities. You wont even know that you've moved out of the comfort of your home town.</p>
+            </div>
+            <div class="cimage"><img src="../images/index/content2.png" alt="content2" style="width: 100%; height: auto;" /></div>
+        </div>
+        <br><br><br>
+        <div class="content">
+            <div class="ctext">
+                <h3>24/7 Security</h3><br>
+                <p>Your safety is our top priority. Our facility is equipped with a robust security infrastructure that operates around the clock. With a dedicated team of highly trained security personnel, state-of-the-art surveillance systems and strict access controls, we ensure a safe and secure environment for all our employees and visitors. Whether you're working late in the lab or enjoying our recreational facilities, you can have peace of mind knowing that Black Mesa's comprehensive security measures are always in place to protect you.</p>
+            </div>
+            <div class="cimage"><img src="../images/index/content3.png" alt="content3" style="width: 100%; height: auto;" /></div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="partners">
+        <h1 class="head">OUR PARTNERS</h1>
+        <p class="desc">Be one of over 500 businesses and organizations advancing humanity with Black Mesa</p><br><br>
+        <div class="orgs">
+            <img src="../images/index/logos/usarmy.png" alt="usArmyLogo" />
+            <img src="../images/index/logos/cia.png" alt="ciaLogo" />
+            <img src="../images/index/logos/fbi.png" alt="fbiLogo" />
+            <img src="../images/index/logos/who.png" alt="whoLogo" />
+            <img src="../images/index/logos/nasa.png" alt="nasaLogo" />
+            <img src="../images/index/logos/microsoft.png" alt="microsoftLogo" />
+            <img src="../images/index/logos/tesla.png" alt="teslaLogo" />
+            <img src="../images/index/logos/meralco.png" alt="meralcoLogo" />
+            <img src="../images/index/logos/meta.png" alt="metaLogo" />
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="contact">
+        <h1 class="head">Ready to Elevate Your Career or Work with Us?</h1><br><br>
+        <p class="desc">Click on one of the two options below to begin your journey today!</p><br><br>
+        <div class="jobcontact">
+            <a href="#">Job Openings</a>
+            <a href="contact.htm">Developer</a>
+        </div>
+    </div>
+
+    <div class="space"></div><hr>
+
+    <div class="footer">
+        <div class="column" id="cr">Copyright &copy; 2024 Black Mesa Corp.</div>
+        <div class="column" id="extraCol"></div>
+        <div class="column" id="extraCol"></div>
+        <div class="column">
+            <p class="fhead">INFORMATION</p>
+            <ul class="flist">
+                <li><a href="#">FAQ</a><li>
+                <li><a href="#">Privacy Policy</a><li>
+                <li><a href="#">Terms & Conditions</a><li>    
+            </ul>
+        </div>
+        <div class="column">
+            <p class="fhead">CONTACT US</p>
+            <p class="coninfo">09294503182</p>
+            <p class="coninfo">cliffabella108@gmail.com</p>
+            <a href="https://www.facebook.com/CHACHAGOOGLE" target="_self"><i class="fa-brands fa-facebook" id="fb"></i></a>
+            <a href="https://www.linkedin.com/in/cliff-abella-b52462305" target="_self"><i class="fa-brands fa-linkedin fa-lg" id="linked"></i></a>
+        </div>
+    </div>
+</body>
+</html>

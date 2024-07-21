@@ -1,0 +1,84 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 185, 99);
+    /* background: rgb(255, 117, 2); */
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {padding: 0 25px;}
+
+.login {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu a, .login a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    padding: 10px 0;
+}
+
+.menu a:hover {border-top: 2px solid rgb(48, 48, 48);}
+
+.login a:hover, .toggle a:hover {color: rgb(200, 200, 200);}
+
+.toggle {display: none;}
+
+.toggle a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.menu2 {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu2 a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    background-color: rgb(0, 185, 99);
+    color: rgb(48, 48, 48);
+    border-top: 1px solid rgb(32, 32, 32);
+}
+
+.menu2 a:hover {background-color: rgb(32, 32, 32); color: rgb(200, 200, 200);}
+
+@media screen and (max-width: 900px) {
+    .navigation {justify-content: space-between;}
+
+    .logo {margin-left: 20px;}
+
+    .menu, .login {display: none;}
+
+    .menu2 {display: block;}
+
+    .toggle {display: flex;}
+}
