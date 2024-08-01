@@ -78,7 +78,9 @@
 
     .menu, .login {display: none;}
 
-    .menu2 {display: block;}
-
     .toggle {display: flex;}
+}
+
+@media screen and (min-width: 901px) {
+    .menu2, .menu2 a {display: none;}
 }
